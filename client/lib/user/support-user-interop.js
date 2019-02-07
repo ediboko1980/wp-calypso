@@ -38,7 +38,7 @@ const reduxStoreReady = new Promise( resolve => {
 
 	_setReduxStore = reduxStore => resolve( reduxStore );
 } );
-export const setReduxStore = _setReduxStore;
+export const setSupportSessionReduxStore = _setReduxStore;
 
 const getStorageItem = () => {
 	try {
