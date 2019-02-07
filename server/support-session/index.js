@@ -1,15 +1,4 @@
 /**
- * Answers whether an inbound Express request looks like a support session
- *
- * @param {object} request Express request
- *
- * @returns {Boolean} Whether the request looks like a support session
- */
-export function isSupportSession( request ) {
-	return !! getSupportSession( request );
-}
-
-/**
  * Gets the support session nonce from an incoming Express request
  *
  * @param {object} request Express request
