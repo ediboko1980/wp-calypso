@@ -60,7 +60,6 @@ class Layout extends Component {
 		masterbarIsHidden: PropTypes.bool,
 		isLoading: PropTypes.bool,
 		isSupportSession: PropTypes.bool,
-		isSupportUser: PropTypes.bool,
 		isOffline: PropTypes.bool,
 		sectionGroup: PropTypes.string,
 		sectionName: PropTypes.string,
@@ -178,7 +177,7 @@ export default connect( state => {
 	return {
 		masterbarIsHidden: ! masterbarIsVisible( state ) || 'signup' === sectionName,
 		isLoading: isSectionLoading( state ),
-		isSupportSession: state.support.isSupportUser || isSupportSession( state ),
+		isSupportSession: isSupportSession( state ),
 		sectionGroup,
 		sectionName,
 		hasSidebar: hasSidebar( state ),

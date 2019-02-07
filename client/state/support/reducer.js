@@ -9,12 +9,7 @@ import debugFactory from 'debug';
  * Internal dependencies
  */
 import { combineReducers } from 'state/utils';
-import {
-	SUPPORT_SESSION_TRANSITION,
-	SUPPORT_USER_ACTIVATE,
-	SERIALIZE,
-	DESERIALIZE,
-} from 'state/action-types';
+import { SUPPORT_SESSION_TRANSITION } from 'state/action-types';
 
 const debug = debugFactory( 'calypso:state:support:actions' );
 
@@ -41,32 +36,9 @@ function supportSession( state = SESSION_NONE, { type, nextState } ) {
 			debug( `invalid support session transition from '${ state }' to '${ nextState }'` );
 			return state;
 
-		// Support custom persistence so the client is willing to consume this state from the server.
-		// We don't actually want to persist this state, so serialize to null.
-		// TODO: Consider way to relay non-persisted state from the server and remove this hack.
-		case SERIALIZE:
-			return null;
-		case DESERIALIZE:
-			return state === null ? SESSION_NONE : state;
-
 		default:
 			return state;
 	}
 }
-supportSession.hasCustomPersistence = true;
 
-export { supportSession };
-
-export function isSupportUser( state = false, { type } ) {
-	switch ( type ) {
-		case SUPPORT_USER_ACTIVATE:
-			return true;
-	}
-
-	return state;
-}
-
-export default combineReducers( {
-	supportSession,
-	isSupportUser,
-} );
+export default combineReducers( { supportSession } );
