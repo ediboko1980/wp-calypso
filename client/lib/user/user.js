@@ -14,7 +14,12 @@ import { stringify } from 'qs';
 /**
  * Internal dependencies
  */
-import { isSupportUserSession, supportUserBoot } from 'lib/user/support-user-interop';
+import {
+	isSupportUserSession,
+	isSupportNextSession,
+	supportUserBoot,
+	supportNextBoot,
+} from 'lib/user/support-user-interop';
 import wpcom from 'lib/wp';
 import Emitter from 'lib/mixins/emitter';
 import { isE2ETest } from 'lib/e2e';
@@ -62,6 +67,11 @@ User.prototype.initialize = function() {
 
 		// We're booting into support user mode, skip initialization of the main user.
 		return;
+	}
+
+	if ( isSupportNextSession() ) {
+		// boot the support session and proceed with user bootstrap (unlike the SupportUserSession)
+		supportNextBoot();
 	}
 
 	if ( config.isEnabled( 'wpcom-user-bootstrap' ) ) {
