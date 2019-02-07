@@ -2072,20 +2072,20 @@
 			}
 		},
 		"@wordpress/block-library": {
-			"version": "2.2.15",
-			"resolved": "https://registry.npmjs.org/@wordpress/block-library/-/block-library-2.2.15.tgz",
-			"integrity": "sha512-Vcl1tXD0MHjr238hkFpoI5+ybBxZxS3ChTt3HQq9+4GKaYYLeZTqSkchnmHcDAJ5tJ6tQWQ3dL2w7BbUi6NUuA==",
+			"version": "2.2.16",
+			"resolved": "https://registry.npmjs.org/@wordpress/block-library/-/block-library-2.2.16.tgz",
+			"integrity": "sha512-7HoqV7myTdmClOQZ3MXPQs8FXflqK6krU4Nkx8kyl6/b/gbZSaqJhbeDpZ+w56wOrTTaNi7OrPDH9t2M18nBdA==",
 			"requires": {
 				"@babel/runtime": "^7.0.0",
 				"@wordpress/autop": "^2.0.2",
 				"@wordpress/blob": "^2.1.0",
-				"@wordpress/blocks": "^6.0.6",
+				"@wordpress/blocks": "^6.0.7",
 				"@wordpress/components": "^7.0.8",
 				"@wordpress/compose": "^3.0.1",
 				"@wordpress/core-data": "^2.0.17",
 				"@wordpress/data": "^4.2.1",
 				"@wordpress/deprecated": "^2.0.5",
-				"@wordpress/editor": "^9.0.10",
+				"@wordpress/editor": "^9.0.11",
 				"@wordpress/element": "^2.1.9",
 				"@wordpress/html-entities": "^2.0.4",
 				"@wordpress/i18n": "^3.1.1",
@@ -2098,9 +2098,9 @@
 			}
 		},
 		"@wordpress/block-serialization-default-parser": {
-			"version": "2.0.4",
-			"resolved": "https://registry.npmjs.org/@wordpress/block-serialization-default-parser/-/block-serialization-default-parser-2.0.4.tgz",
-			"integrity": "sha512-qTJRSiTLfPw/BlyxXIOv23ISpoQHNXOjbmC+XBmQNI0Ne/4U8cgAf6/2L8w/b2ZEFE+F5OqlOXuQ+4/QRvOnrA==",
+			"version": "2.0.5",
+			"resolved": "https://registry.npmjs.org/@wordpress/block-serialization-default-parser/-/block-serialization-default-parser-2.0.5.tgz",
+			"integrity": "sha512-SzLHeqfz4G9bgugWQpqRKYZXWXJ87sJ67yiPB004Ev3SoPWiR7waqDmAPO//chCv7mBi+p0kWUnIw4feAq9x5w==",
 			"requires": {
 				"@babel/runtime": "^7.0.0"
 			}
@@ -2111,14 +2111,14 @@
 			"integrity": "sha512-fLBKNRbnm5OZCseWYEuH2uHR2Sx6vWX9UY9wlu7ba1rQb4xjLEh547+yYs7985udB2pGmUG6JWdBcHAlTkkIqw=="
 		},
 		"@wordpress/blocks": {
-			"version": "6.0.6",
-			"resolved": "https://registry.npmjs.org/@wordpress/blocks/-/blocks-6.0.6.tgz",
-			"integrity": "sha512-eVLfd7rZ7LlUcfyxL+CRvJeEJHdEe+vWMzMc6Chd6+JCQ23UcH4aUJBDuIWAZWHckLNep1O7NrjJOEIgxkeBOQ==",
+			"version": "6.0.7",
+			"resolved": "https://registry.npmjs.org/@wordpress/blocks/-/blocks-6.0.7.tgz",
+			"integrity": "sha512-k1Hoq2PMTDWDJCPwF8d5RXxi2FZUkg0XvGdFoGT8os2l9PE3NWoZgzzSHnYZhkJhm/P+hKwHWxXk5xNqRBp9Mw==",
 			"requires": {
 				"@babel/runtime": "^7.0.0",
 				"@wordpress/autop": "^2.0.2",
 				"@wordpress/blob": "^2.1.0",
-				"@wordpress/block-serialization-default-parser": "^2.0.4",
+				"@wordpress/block-serialization-default-parser": "^2.0.5",
 				"@wordpress/block-serialization-spec-parser": "^2.0.3",
 				"@wordpress/data": "^4.2.1",
 				"@wordpress/dom": "^2.0.8",
@@ -2249,22 +2249,22 @@
 			}
 		},
 		"@wordpress/edit-post": {
-			"version": "3.1.10",
-			"resolved": "https://registry.npmjs.org/@wordpress/edit-post/-/edit-post-3.1.10.tgz",
-			"integrity": "sha512-i3K4OR7IT/reqVamImLRNFW9rMHCZ7P5OPTG9lPdB/G5h0tV5WJPwQER0wZZhH2kA1/evH7BvdiWY90NPI3e0Q==",
+			"version": "3.1.11",
+			"resolved": "https://registry.npmjs.org/@wordpress/edit-post/-/edit-post-3.1.11.tgz",
+			"integrity": "sha512-NZucS6HHR7e6e1WQKQabAt2zGjo/TkjWHkg76wspLcnW8JdbRl+VFTIAe2BZOeomRbU03wTb1N6b1UJKs94nkQ==",
 			"requires": {
 				"@babel/runtime": "^7.0.0",
 				"@wordpress/a11y": "^2.0.2",
 				"@wordpress/api-fetch": "^2.2.8",
-				"@wordpress/block-library": "^2.2.15",
-				"@wordpress/blocks": "^6.0.6",
+				"@wordpress/block-library": "^2.2.16",
+				"@wordpress/blocks": "^6.0.7",
 				"@wordpress/components": "^7.0.8",
 				"@wordpress/compose": "^3.0.1",
 				"@wordpress/core-data": "^2.0.17",
 				"@wordpress/data": "^4.2.1",
-				"@wordpress/editor": "^9.0.10",
+				"@wordpress/editor": "^9.0.11",
 				"@wordpress/element": "^2.1.9",
-				"@wordpress/format-library": "^1.2.13",
+				"@wordpress/format-library": "^1.2.14",
 				"@wordpress/hooks": "^2.0.5",
 				"@wordpress/i18n": "^3.1.1",
 				"@wordpress/keycodes": "^2.0.6",
@@ -2278,15 +2278,15 @@
 			}
 		},
 		"@wordpress/editor": {
-			"version": "9.0.10",
-			"resolved": "https://registry.npmjs.org/@wordpress/editor/-/editor-9.0.10.tgz",
-			"integrity": "sha512-Oe87p6nbyVJFEOJx3aqbzKGb8KW+eT2IcA6/KkfkIyeYwkuZunuIJusG+Kl20DFBNHF/kgWfSK3y2Ga2GE8peQ==",
+			"version": "9.0.11",
+			"resolved": "https://registry.npmjs.org/@wordpress/editor/-/editor-9.0.11.tgz",
+			"integrity": "sha512-3kyua3fpQOJZYCWk+XfNtuUL8BCwKzmHWbm/5s6bv1so58q/4Ek1ZcEXo5B+KN+2crlg56zX1aNQ4LxiP+hnAA==",
 			"requires": {
 				"@babel/runtime": "^7.0.0",
 				"@wordpress/a11y": "^2.0.2",
 				"@wordpress/api-fetch": "^2.2.8",
 				"@wordpress/blob": "^2.1.0",
-				"@wordpress/blocks": "^6.0.6",
+				"@wordpress/blocks": "^6.0.7",
 				"@wordpress/components": "^7.0.8",
 				"@wordpress/compose": "^3.0.1",
 				"@wordpress/core-data": "^2.0.17",
@@ -2350,14 +2350,14 @@
 			}
 		},
 		"@wordpress/format-library": {
-			"version": "1.2.13",
-			"resolved": "https://registry.npmjs.org/@wordpress/format-library/-/format-library-1.2.13.tgz",
-			"integrity": "sha512-zfqspcqlOMbPcsmXrDqIqPHwMFxvVEQKpOqW34bhXJMRkWWvr4DRGpFHNveXFghedGaIYRS8cR8qfgCNckrFzw==",
+			"version": "1.2.14",
+			"resolved": "https://registry.npmjs.org/@wordpress/format-library/-/format-library-1.2.14.tgz",
+			"integrity": "sha512-cPDQR9A1RDy8tBXTeb/BKWLAOQGulfvSRgTFvMv5lwVON1DechvaJzlvz0pAyYM/mUe92dFotNsWr++TaFeYNQ==",
 			"requires": {
 				"@babel/runtime": "^7.0.0",
 				"@wordpress/components": "^7.0.8",
 				"@wordpress/dom": "^2.0.8",
-				"@wordpress/editor": "^9.0.10",
+				"@wordpress/editor": "^9.0.11",
 				"@wordpress/element": "^2.1.9",
 				"@wordpress/i18n": "^3.1.1",
 				"@wordpress/keycodes": "^2.0.6",
@@ -4234,7 +4234,8 @@
 						},
 						"ansi-regex": {
 							"version": "2.1.1",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"aproba": {
 							"version": "1.2.0",
@@ -4252,11 +4253,13 @@
 						},
 						"balanced-match": {
 							"version": "1.0.0",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"brace-expansion": {
 							"version": "1.1.11",
 							"bundled": true,
+							"optional": true,
 							"requires": {
 								"balanced-match": "^1.0.0",
 								"concat-map": "0.0.1"
@@ -4269,15 +4272,18 @@
 						},
 						"code-point-at": {
 							"version": "1.1.0",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"concat-map": {
 							"version": "0.0.1",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"console-control-strings": {
 							"version": "1.1.0",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"core-util-is": {
 							"version": "1.0.2",
@@ -4380,7 +4386,8 @@
 						},
 						"inherits": {
 							"version": "2.0.3",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"ini": {
 							"version": "1.3.5",
@@ -4390,6 +4397,7 @@
 						"is-fullwidth-code-point": {
 							"version": "1.0.0",
 							"bundled": true,
+							"optional": true,
 							"requires": {
 								"number-is-nan": "^1.0.0"
 							}
@@ -4402,17 +4410,20 @@
 						"minimatch": {
 							"version": "3.0.4",
 							"bundled": true,
+							"optional": true,
 							"requires": {
 								"brace-expansion": "^1.1.7"
 							}
 						},
 						"minimist": {
 							"version": "0.0.8",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"minipass": {
 							"version": "2.3.5",
 							"bundled": true,
+							"optional": true,
 							"requires": {
 								"safe-buffer": "^5.1.2",
 								"yallist": "^3.0.0"
@@ -4429,6 +4440,7 @@
 						"mkdirp": {
 							"version": "0.5.1",
 							"bundled": true,
+							"optional": true,
 							"requires": {
 								"minimist": "0.0.8"
 							}
@@ -4501,7 +4513,8 @@
 						},
 						"number-is-nan": {
 							"version": "1.0.1",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"object-assign": {
 							"version": "4.1.1",
@@ -4511,6 +4524,7 @@
 						"once": {
 							"version": "1.4.0",
 							"bundled": true,
+							"optional": true,
 							"requires": {
 								"wrappy": "1"
 							}
@@ -4586,7 +4600,8 @@
 						},
 						"safe-buffer": {
 							"version": "5.1.2",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"safer-buffer": {
 							"version": "2.1.2",
@@ -4616,6 +4631,7 @@
 						"string-width": {
 							"version": "1.0.2",
 							"bundled": true,
+							"optional": true,
 							"requires": {
 								"code-point-at": "^1.0.0",
 								"is-fullwidth-code-point": "^1.0.0",
@@ -4633,6 +4649,7 @@
 						"strip-ansi": {
 							"version": "3.0.1",
 							"bundled": true,
+							"optional": true,
 							"requires": {
 								"ansi-regex": "^2.0.0"
 							}
@@ -4671,11 +4688,13 @@
 						},
 						"wrappy": {
 							"version": "1.0.2",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						},
 						"yallist": {
 							"version": "3.0.3",
-							"bundled": true
+							"bundled": true,
+							"optional": true
 						}
 					}
 				}
@@ -16751,7 +16770,8 @@
 						"ansi-regex": {
 							"version": "2.1.1",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"aproba": {
 							"version": "1.2.0",
@@ -16772,12 +16792,14 @@
 						"balanced-match": {
 							"version": "1.0.0",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"brace-expansion": {
 							"version": "1.1.11",
 							"bundled": true,
 							"dev": true,
+							"optional": true,
 							"requires": {
 								"balanced-match": "^1.0.0",
 								"concat-map": "0.0.1"
@@ -16792,17 +16814,20 @@
 						"code-point-at": {
 							"version": "1.1.0",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"concat-map": {
 							"version": "0.0.1",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"console-control-strings": {
 							"version": "1.1.0",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"core-util-is": {
 							"version": "1.0.2",
@@ -16919,7 +16944,8 @@
 						"inherits": {
 							"version": "2.0.3",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"ini": {
 							"version": "1.3.5",
@@ -16931,6 +16957,7 @@
 							"version": "1.0.0",
 							"bundled": true,
 							"dev": true,
+							"optional": true,
 							"requires": {
 								"number-is-nan": "^1.0.0"
 							}
@@ -16945,6 +16972,7 @@
 							"version": "3.0.4",
 							"bundled": true,
 							"dev": true,
+							"optional": true,
 							"requires": {
 								"brace-expansion": "^1.1.7"
 							}
@@ -16952,12 +16980,14 @@
 						"minimist": {
 							"version": "0.0.8",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"minipass": {
 							"version": "2.3.5",
 							"bundled": true,
 							"dev": true,
+							"optional": true,
 							"requires": {
 								"safe-buffer": "^5.1.2",
 								"yallist": "^3.0.0"
@@ -16976,6 +17006,7 @@
 							"version": "0.5.1",
 							"bundled": true,
 							"dev": true,
+							"optional": true,
 							"requires": {
 								"minimist": "0.0.8"
 							}
@@ -17056,7 +17087,8 @@
 						"number-is-nan": {
 							"version": "1.0.1",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"object-assign": {
 							"version": "4.1.1",
@@ -17068,6 +17100,7 @@
 							"version": "1.4.0",
 							"bundled": true,
 							"dev": true,
+							"optional": true,
 							"requires": {
 								"wrappy": "1"
 							}
@@ -17153,7 +17186,8 @@
 						"safe-buffer": {
 							"version": "5.1.2",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"safer-buffer": {
 							"version": "2.1.2",
@@ -17189,6 +17223,7 @@
 							"version": "1.0.2",
 							"bundled": true,
 							"dev": true,
+							"optional": true,
 							"requires": {
 								"code-point-at": "^1.0.0",
 								"is-fullwidth-code-point": "^1.0.0",
@@ -17208,6 +17243,7 @@
 							"version": "3.0.1",
 							"bundled": true,
 							"dev": true,
+							"optional": true,
 							"requires": {
 								"ansi-regex": "^2.0.0"
 							}
@@ -17251,12 +17287,14 @@
 						"wrappy": {
 							"version": "1.0.2",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						},
 						"yallist": {
 							"version": "3.0.3",
 							"bundled": true,
-							"dev": true
+							"dev": true,
+							"optional": true
 						}
 					}
 				},
