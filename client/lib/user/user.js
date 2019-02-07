@@ -14,7 +14,7 @@ import { stringify } from 'qs';
 /**
  * Internal dependencies
  */
-import { isSupportUserSession, boot as supportUserBoot } from 'lib/user/support-user-interop';
+import { isSupportUserSession, supportUserBoot } from 'lib/user/support-user-interop';
 import wpcom from 'lib/wp';
 import Emitter from 'lib/mixins/emitter';
 import { isE2ETest } from 'lib/e2e';

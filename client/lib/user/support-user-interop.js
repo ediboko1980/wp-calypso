@@ -100,7 +100,7 @@ const onTokenError = error => {
 /**
  * Inject the support user token into all following API calls
  */
-export const boot = () => {
+export const supportUserBoot = () => {
 	if ( ! isEnabled() ) {
 		return;
 	}
