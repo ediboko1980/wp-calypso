@@ -64,7 +64,7 @@ class HoursList extends Component {
 							return <HoursRow day={ dayOfTheWeek } data={ localization } { ...this.props } />;
 						} )
 				) : (
-					<p>{ __( 'Loading...' ) }</p>
+					<p>{ __( 'Loading business hours...' ) }</p>
 				) }
 			</dl>
 		);
