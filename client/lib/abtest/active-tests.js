@@ -138,4 +138,12 @@ export default {
 		},
 		defaultVariation: 'allPrimary',
 	},
+	gSuitePostCheckoutNotice: {
+		datestamp: '20190208',
+		variations: {
+			original: 50,
+			enhanced: 50,
+		},
+		defaultVariation: 'original',
+	},
 };
