@@ -146,4 +146,12 @@ export default {
 		},
 		defaultVariation: 'original',
 	},
+	twoYearPlanByDefault: {
+		datestamp: '20190207',
+		variations: {
+			originalFlavor: 50,
+			twoYearFlavor: 50,
+		},
+		defaultVariation: 'originalFlavor',
+	},
 };
