@@ -147,7 +147,7 @@ function photonWpcomImage( url, opts = {} ) {
 function buildSrcset( img, { layoutStyle } ) {
 	const { url, width } = img;
 
-	if ( ! url ) {
+	if ( ! img.height || ! url || ! width ) {
 		return;
 	}
 
@@ -191,7 +191,7 @@ const defaultPhotonArgs = {
  * @return {string} Photon URL
  */
 function photonize( { height, width, url }, photonArgs = {}, { layoutStyle } = {} ) {
-	if ( ! url ) {
+	if ( ! height || ! url || ! width ) {
 		return;
 	}
 
